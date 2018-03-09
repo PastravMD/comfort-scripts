@@ -173,4 +173,4 @@ bar {
 # personal changes
 bindsym $mod+Shift+x exec i3lock --image=/home/mihaidragan/Downloads/wallpapers/arch2.png
 exec_always feh --bg-scale /home/mihaidragan/Downloads/wallpapers/pcb-bbb.jpg
-xset r rate 150 40
+xset r rate 200 40

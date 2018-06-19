@@ -33,7 +33,8 @@ set textwidth=100
 set smartindent
 
 " Display extra whitespace
-"set list listchars=tab:»·,trail:·,nbsp:·
+set list listchars=tab:»·,trail:·,nbsp:·
+set tabstop=8
 set formatoptions=qrn1
 set wrapmargin=0
 set colorcolumn=+1
@@ -159,6 +160,9 @@ nmap <silent> <kMinus>      zc
 
 " apply cscope key map
 source ~/.vim/cscope_maps.vim
+
+set encoding=utf-8
+set fileencoding=utf-8
 
 "set encoding=latin1
 "set fileencoding=latin1

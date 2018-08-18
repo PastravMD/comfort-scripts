@@ -1,2 +1,1 @@
-# bunch-o-scripts
-Various comfort scripts
+# Various scripts

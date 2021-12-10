@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # install pathogen
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
@@ -28,3 +28,7 @@ git clone git://github.com/airblade/vim-gitgutter.git
 
 # tags and handling
 git clone https://github.com/majutsushi/tagbar
+
+# word highlighting
+git clone https://github.com/t9md/vim-quickhl.git
+
